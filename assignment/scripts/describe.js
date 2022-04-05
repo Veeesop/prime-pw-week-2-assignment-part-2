@@ -128,6 +128,8 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//Fix colorTwo should also be set to 'purple';
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -139,7 +141,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//Fix time variable should be LET instead of const because time can change
 const time = 4;
+
+//Fix the OR(||) operator should be an AND(&&) operator.
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -153,6 +158,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//Fix change first console.log to 'enter' and second console.log to 'no entry'
 
 if(minAge <= age) {
   console.log('no entry');
